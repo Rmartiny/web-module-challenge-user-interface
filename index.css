@@ -92,6 +92,9 @@ color: pink;
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
+.address{
+  line-height: 2;
+}
 
 footer {
   width: 100%;
@@ -101,6 +104,7 @@ footer {
 
 footer .footer-content { 
   margin: 0 auto; 
+  width: 600px ;
   /*======= create a width property. Set the value to 600px */
   
 }
@@ -119,6 +123,11 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
+footer a{
+  margin: 10px;
+  color:black;
+  text-decoration: underline;
+}
 
 
 footer nav a:first-child {
