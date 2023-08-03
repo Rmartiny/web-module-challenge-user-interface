@@ -37,7 +37,7 @@ p{font-size: 16px;
   
 
 */
-image{border-radius: 10px;}
+img{border-radius: 10px;}
 
 .content-row {
   display: flex;
@@ -77,7 +77,7 @@ color: pink;
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
-.about{
+section.about{
   margin-top: 20px;
 }
 
@@ -94,7 +94,7 @@ color: pink;
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
-.address{
+section.address{
   line-height: 2;
 }
 
